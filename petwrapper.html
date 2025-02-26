@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="country.html">Page 1</a>
+        <a href="Chocolate.html">Page 2</a>
+        <a href="petwrapper.html">Page 3</a>
+    </nav>
+    <h1> Header pet-wrapper</h1>
+    <p>This is the pet-swapper pager.</p>
+    <button onclick="changeContent()">Click me!</button>
+    <script src="script1.js"></script>
+    <script src="script3.js"></script>
+    <script>
+        function favoritePet(pet) {
+            if (pet === 'dog') {
+                document.getElementById('my-favorite-pet').innerText = 'dog!';
+            } else if (pet === 'cat') {
+                document.getElementById('my-favorite-pet').innerText = 'cat!';
+            }
+        }
+        document.getElementById('my-favorite-pet').innerText = 'dog!';
+    </script>
+    
+    <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Healthy Dog" height="200" width="200">
+
+        </article>
+</body>
+</html>

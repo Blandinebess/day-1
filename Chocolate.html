@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chocolate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Chocolate.html">Page 1</a>
+        <a href="petswapper.html">Page 2</a>
+        <a href="country.html">Page 3</a>
+    </nav>
+    <h1>Header Chocolate</h1>
+    <p>This is my chocolate flavor Page.</p>
+    <button onclick="changeContent()">Click me!</button>
+    <script src="script1.js"></script>
+    <div id = "quiz"
+    <p> What is my favorite ice cream flavor?</p>
+    <button onclick="checkAnswer('a')">A. Vanilla</button>
+    <button onclick="checkAnswer('b')">B. Chocolate</button>
+    <button onclick="checkAnswer('c')">C. Strawberry</button>
+    <p id="quizResult"></p>
+    </div>
+    <script>
+        function checkAnswer(answer) {
+            if (answer === 'b') {
+                document.getElementById('quizResult').innerText = 'Correct!';
+            } else {
+                document.getElementById('quizResult').innerText = 'Incorrect!';
+            }
+        }
+
+
+    
+</body>
+</html>
